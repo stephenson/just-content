@@ -53,23 +53,28 @@ body {
 
     li {
       margin: none;
+      width: 100%;
       padding: 10px;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+  }
+
+  .attribution {
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: darken(#ece6da, 30);
+
+    a {
+      color: darken(#ece6da, 30);
+      text-decoration: underline;
     }
   }
 }
 
 .content {
   padding-top: 2rem;
-
-  .external-article {
-    border: 1px solid #ece6da;
-    border-radius: 5px;
-    padding: 20px;
-    -webkit-box-shadow: 0 10px 6px -6px #eceeef;
-	   -moz-box-shadow: 0 10px 6px -6px #eceeef;
-	        box-shadow: 0 10px 6px -6px #eceeef;
-    margin-bottom: 2rem;
-  }
 
   .read-more {
     border: 1px solid #ece6da;

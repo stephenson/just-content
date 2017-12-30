@@ -35,18 +35,21 @@ body {
     padding-left: 0px; }
     .sidebar .nav li {
       margin: none;
-      padding: 10px; }
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 400; }
+  .sidebar .attribution {
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: #b8a275; }
+    .sidebar .attribution a {
+      color: #b8a275;
+      text-decoration: underline; }
 
 .content {
   padding-top: 2rem; }
-  .content .external-article {
-    border: 1px solid #ece6da;
-    border-radius: 5px;
-    padding: 20px;
-    -webkit-box-shadow: 0 10px 6px -6px #eceeef;
-    -moz-box-shadow: 0 10px 6px -6px #eceeef;
-    box-shadow: 0 10px 6px -6px #eceeef;
-    margin-bottom: 2rem; }
   .content .read-more {
     border: 1px solid #ece6da;
     padding: 10px;
