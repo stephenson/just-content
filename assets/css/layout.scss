@@ -1,0 +1,136 @@
+$spacer:   1rem;
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1.1rem;
+  font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+  font-weight: 400;
+  line-height: 1.6;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+  }
+}
+
+.sidebar {
+  background-color: #f8f5f0;
+  padding-top: ($spacer * 2);
+  border-top: 1px solid #ece6da;
+
+  @media (min-width: 768px) {
+    border-left: 1px solid #ece6da;
+    border-top: none;
+  }
+
+  text-align: center;
+
+  .intro {
+
+    .image {
+      display: none;
+
+      @media (min-width: 768px) {
+        margin: 30px;
+        margin-top: 0;
+        display: block;
+      }
+    }
+
+    h1 {
+      font-size: 1.6rem;
+    }
+  }
+
+  .nav {
+    list-style: none;
+    padding-left: 0px;
+
+    li {
+      margin: none;
+      padding: 10px;
+    }
+  }
+}
+
+.content {
+  padding-top: ($spacer * 2);
+
+  .external-article {
+    border: 1px solid #ece6da;
+    border-radius: 5px;
+    padding: 20px;
+    -webkit-box-shadow: 0 10px 6px -6px #eceeef;
+	   -moz-box-shadow: 0 10px 6px -6px #eceeef;
+	        box-shadow: 0 10px 6px -6px #eceeef;
+    margin-bottom: 2rem;
+  }
+
+  .read-more {
+    border: 1px solid #ece6da;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    &:hover {
+      text-decoration: none;
+      background-color: #f7f7f9;
+    }
+  }
+
+  article {
+    margin-bottom: ($spacer * 3);
+
+    h1 {
+      font-size: 2rem;
+      a {
+        color: #000;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+.pagination {
+  border-top: 1px solid #ece6da;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.newsletter {
+
+  .content {
+    text-align: center;
+
+    h1 {
+      font-size: 3em;
+    }
+  }
+}
+
+.newsletter-blogpost {
+  border: 1px solid #ece6da;
+  border-radius: 5px;
+  margin-bottom: 30px;
+
+  text-align: center;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

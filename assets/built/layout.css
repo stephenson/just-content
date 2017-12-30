@@ -1,0 +1,90 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 1.1rem;
+  font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+  font-weight: 400;
+  line-height: 1.6; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+    font-weight: 800;
+    line-height: 1.2; }
+  body h1 {
+    font-size: 2.8rem; }
+
+.sidebar {
+  background-color: #f8f5f0;
+  padding-top: 2rem;
+  border-top: 1px solid #ece6da;
+  text-align: center; }
+  @media (min-width: 768px) {
+    .sidebar {
+      border-left: 1px solid #ece6da;
+      border-top: none; } }
+  .sidebar .intro .image {
+    display: none; }
+    @media (min-width: 768px) {
+      .sidebar .intro .image {
+        margin: 30px;
+        margin-top: 0;
+        display: block; } }
+  .sidebar .intro h1 {
+    font-size: 1.6rem; }
+  .sidebar .nav {
+    list-style: none;
+    padding-left: 0px; }
+    .sidebar .nav li {
+      margin: none;
+      padding: 10px; }
+
+.content {
+  padding-top: 2rem; }
+  .content .external-article {
+    border: 1px solid #ece6da;
+    border-radius: 5px;
+    padding: 20px;
+    -webkit-box-shadow: 0 10px 6px -6px #eceeef;
+    -moz-box-shadow: 0 10px 6px -6px #eceeef;
+    box-shadow: 0 10px 6px -6px #eceeef;
+    margin-bottom: 2rem; }
+  .content .read-more {
+    border: 1px solid #ece6da;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    .content .read-more:hover {
+      text-decoration: none;
+      background-color: #f7f7f9; }
+  .content article {
+    margin-bottom: 3rem; }
+    .content article h1 {
+      font-size: 2rem; }
+      .content article h1 a {
+        color: #000; }
+        .content article h1 a:hover {
+          text-decoration: none; }
+
+p {
+  margin-bottom: 2rem; }
+
+.pagination {
+  border-top: 1px solid #ece6da;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.newsletter .content {
+  text-align: center; }
+  .newsletter .content h1 {
+    font-size: 3em; }
+
+.newsletter-blogpost {
+  border: 1px solid #ece6da;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/*# sourceMappingURL=layout.css.map */
