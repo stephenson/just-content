@@ -51,6 +51,9 @@ body {
 
 .content {
   padding-top: 2rem; }
+  .content img {
+    max-width: 100%;
+    height: auto; }
   .content .read-more {
     border: 1px solid #ece6da;
     padding: 10px;
