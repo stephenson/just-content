@@ -42,6 +42,7 @@ body {
       font-weight: 400; }
   .sidebar .attribution {
     margin-top: 2rem;
+    margin-bottom: 2rem;
     font-size: 0.85rem;
     color: #b8a275; }
     .sidebar .attribution a {
