@@ -1,3 +1,12 @@
-<h1>{{title}}</h1>
+{{!< default}}
+{{!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template --}}
 
-{{content}}
+{{!-- Everything inside the #post tags pulls data from the post --}}
+{{#post}}
+
+  <h1>{{title}}</h1>
+
+  {{content}}
+
+{{/post}}

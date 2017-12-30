@@ -3,7 +3,13 @@
 into the {body} of the default.hbs template --}}
 
 {{#foreach posts}}
+  <article>
+    
+    <h1>{{title}}</h1>
 
-  <h1>{{title}}</h1>
+    <p>{{excerpt}}</p>
 
+    <a class="read-more" href="{{url}}">Read more ➡</a>
+
+</article>
 {{/foreach}}

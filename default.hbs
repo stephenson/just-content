@@ -30,17 +30,14 @@
       <div class="col-md-3 offset-md-1 sidebar">
         <div class="intro">
           <div class="image">
-            <img src="https://www.stephenson.dk/images/me-bd51b300.png" class="img-fluid" alt="{{@blog.title}}">
+            <img src="{{@blog.cover_image}}" class="img-fluid" alt="{{@blog.title}}">
           </div>
           <h1>{{@blog.title}}</h1>
           <p>{{@blog.description}}</p>
         </div>
-        <ol>
-        <li><a href="/">Blog</a></li>
-        <li><a href="/mentoring/">Mentoring</a></li>
-        <li><a href="/newsletter/">Newsletter</a></li>
-        <li><a href="/about/">About me</a></li>
-        </ol>
+        {{#if @blog.navigation}}
+            {{navigation}}
+        {{/if}}
       </div>
     </div>
   </div>
