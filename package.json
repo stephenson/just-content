@@ -1,0 +1,42 @@
+{
+    "name": "just-content",
+    "description": "A simpel blogging theme for Ghost that focus on the content.",
+    "demo": "https://www.stephenson.dk",
+    "version": "0.0.1",
+    "engines": {
+        "ghost": ">=1.2.0"
+    },
+    "license": "MIT",
+    "screenshots": {
+        "desktop": "assets/screenshot-desktop.jpg",
+        "mobile": "assets/screenshot-mobile.jpg"
+    },
+    "author": {
+        "name": "Niklas Stephenson",
+        "email": "niklas@stephenson.dk",
+        "url": "https://www.stephenson.dk"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Magazine"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme",
+        "content"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stephenson/just-content"
+    },
+    "bugs": "https://github.com/stephenson/just-content/issues",
+    "contributors": "https://github.com/stephenson/just-content/graphs/contributors",
+    "devDependencies": {
+    },
+    "config": {
+        "posts_per_page": 25
+    }
+}
