@@ -12,4 +12,4 @@ Run bundle install
 
 To generate css files run:
 
-  sass --watch assets/css:assets/build
+  sass --watch assets/css:assets/built
