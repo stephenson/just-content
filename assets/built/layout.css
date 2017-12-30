@@ -54,6 +54,14 @@ body {
   .content img {
     max-width: 100%;
     height: auto; }
+  .content blockquote {
+    border-left: 5px solid #ece6da;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block; }
   .content .read-more {
     border: 1px solid #ece6da;
     padding: 10px;
