@@ -6,7 +6,7 @@
     "engines": {
         "ghost": ">=1.2.0"
     },
-    "license": "MIT",
+    "license": "",
     "screenshots": {
         "desktop": "assets/screenshot-desktop.jpg",
         "mobile": "assets/screenshot-mobile.jpg"
