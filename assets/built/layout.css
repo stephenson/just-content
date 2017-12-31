@@ -62,6 +62,40 @@ body {
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: inline-block; }
+  .content .featured-post-list a {
+    display: inline-block;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    padding-top: 16rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    text-align: center; }
+    .content .featured-post-list a .featured {
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      margin-bottom: 1rem; }
+    .content .featured-post-list a:hover {
+      text-decoration: none;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  .content .featured-post-list h1 {
+    font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif !important;
+    font-size: 3.5rem !important;
+    font-weight: 200 !important; }
+  .content .featured-post-headline {
+    text-align: center; }
+  .content .featured-post-image {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center; }
+    .content .featured-post-image img {
+      margin-bottom: 1rem; }
   .content .read-more {
     border: 1px solid #ece6da;
     padding: 10px;
@@ -74,7 +108,7 @@ body {
   .content article {
     margin-bottom: 3rem; }
     .content article h1 {
-      font-size: 2rem; }
+      font-size: 2.8rem; }
       .content article h1 a {
         color: #000; }
         .content article h1 a:hover {
@@ -94,12 +128,14 @@ p {
   .newsletter .content h1 {
     font-size: 3em; }
 
-.newsletter-blogpost {
+.card {
   border: 1px solid #ece6da;
   border-radius: 5px;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.newsletter-blogpost {
   margin-bottom: 30px;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  text-align: center; }
 
 /*# sourceMappingURL=layout.css.map */
