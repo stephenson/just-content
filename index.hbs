@@ -3,13 +3,23 @@
 into the {body} of the default.hbs template --}}
 
 {{#foreach posts}}
-  <article>
-    
-    <h1>{{title}}</h1>
+  {{#if featured}}
+    <article class="featured-post-list">
+      <a href="{{url}}" style="background-image: url({{img_url feature_image}});">
+        <p class="featured">Featured</p>
+        <h1 class="featured-headline">{{title}}</h1>
+        <p>{{excerpt}}</p>
+      </a>
+    </article>
+  {{else}}
+    <article>
 
-    <p>{{excerpt}}</p>
+      <h1><a href="{{url}}">{{title}}</a></h1>
 
-    <a class="read-more" href="{{url}}">Read more ➡</a>
+      <p>{{excerpt}}</p>
 
-</article>
+      <a class="read-more" href="{{url}}">Read more ➡</a>
+
+    </article>
+  {{/if}}
 {{/foreach}}
