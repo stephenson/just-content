@@ -2,7 +2,7 @@
     "name": "just-content",
     "description": "A simpel blogging theme for Ghost that focus on the content.",
     "demo": "https://www.stephenson.dk",
-    "version": "0.0.1",
+    "version": "0.1 beta",
     "engines": {
         "ghost": ">=1.2.0"
     },
