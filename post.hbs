@@ -7,12 +7,14 @@ into the {body} of the default.hbs template --}}
 
   {{#if featured}}
     <h1 class="featured-post-headline">{{title}}</h1>
+    <div class="post-readingtime">( {{reading_time}} )</div>
     <div class="featured-post-image">
       <img src="{{img_url feature_image}}" />
       <small>{{excerpt}}</small>
     </div>
   {{else}}
     <h1>{{title}}</h1>
+    <div class="post-readingtime">( {{reading_time}} )</div>
   {{/if}}
 
   {{content}}
