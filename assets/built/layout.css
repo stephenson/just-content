@@ -77,8 +77,11 @@ body {
       width: 75vw;
       left: calc(-1 * (75vw - 100%) / 2); } }
   .section-header p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-bottom: 0; }
+    @media (min-width: 768px) {
+      .section-header p {
+        font-size: 1.6rem; } }
 
 .welcome {
   padding: 2rem; }

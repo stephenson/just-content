@@ -114,7 +114,11 @@ body {
   }
 
   p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+
+    @media (min-width: 768px) {
+      font-size: 1.6rem;
+    }
     margin-bottom: 0;
   }
 }
