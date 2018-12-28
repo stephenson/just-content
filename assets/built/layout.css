@@ -64,6 +64,11 @@ body {
 
 .content {
   padding-top: 2rem; }
+  .content .post-metadata {
+    margin-bottom: 1rem;
+    color: #dbcfb8; }
+    .content .post-metadata a {
+      color: #dbcfb8; }
   .content hr {
     border-top: 1px solid #ece6da; }
   .content img {
@@ -111,8 +116,6 @@ body {
     text-align: center; }
     .content .featured-post-image img {
       margin-bottom: 1rem; }
-  .content .post-readingtime {
-    font-size: 0.90rem; }
   .content .read-more {
     border: 1px solid #ece6da;
     padding: 10px;

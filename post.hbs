@@ -4,9 +4,9 @@ into the {body} of the default.hbs template --}}
 
 {{!-- Everything inside the #post tags pulls data from the post --}}
 {{#post}}
+  <div class="post-metadata">Written by {{authors separator=" | "}}, published on {{date format="D MMMM YYYY"}} - {{reading_time}}.</div>
 
   <h1>{{title}}</h1>
-  <div class="post-readingtime">( {{reading_time}} )</div>
 
   {{content}}
 
