@@ -20,7 +20,8 @@ body {
   @media (min-width: 768px) {
     .sidebar {
       border-left: 1px solid #ece6da;
-      border-top: none; } }
+      border-top: none;
+      min-height: 100vh; } }
   .sidebar .intro .image {
     display: none; }
     @media (min-width: 768px) {
