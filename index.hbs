@@ -3,15 +3,6 @@
 into the {body} of the default.hbs template --}}
 
 {{#foreach posts}}
-  {{#if featured}}
-    <article class="featured-post-list">
-      <a href="{{url}}" style="background-image: url({{img_url feature_image}});">
-        <p class="featured">Featured</p>
-        <h1 class="featured-headline">{{title}}</h1>
-        <p>{{excerpt words="28"}}...</p>
-      </a>
-    </article>
-  {{else}}
     <article>
 
       <h1><a href="{{url}}">{{title}}</a></h1>
@@ -21,5 +12,7 @@ into the {body} of the default.hbs template --}}
       <a class="read-more" href="{{url}}">Read more ➡</a>
 
     </article>
-  {{/if}}
+
 {{/foreach}}
+
+{{pagination}}

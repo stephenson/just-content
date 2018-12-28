@@ -133,10 +133,18 @@ p {
   margin-bottom: 2rem; }
 
 .pagination {
-  border-top: 1px solid #ece6da;
-  padding-top: 2rem;
-  margin-top: 2rem;
+  border: 1px solid #ece6da;
+  border-radius: 5px;
   margin-bottom: 2rem; }
+  .pagination .newer {
+    border-right: 1px solid #ece6da; }
+  .pagination .newer, .pagination .older {
+    text-align: center; }
+    .pagination .newer a, .pagination .newer p, .pagination .older a, .pagination .older p {
+      padding: 2rem;
+      margin: 0;
+      width: 100%;
+      display: block; }
 
 .card {
   border: 1px solid #ece6da;
