@@ -2,9 +2,9 @@
     "name": "just-content",
     "description": "A simpel blogging theme for Ghost that focus on the content.",
     "demo": "https://www.stephenson.dk",
-    "version": "0.1 beta",
+    "version": "0.0.1",
     "engines": {
-        "ghost": ">=1.2.0"
+        "ghost": ">=2.0.0"
     },
     "license": "MIT",
     "screenshots": {
@@ -23,9 +23,9 @@
         ]
     },
     "keywords": [
-        "stephenson",
+        "ghost",
         "theme",
-        "content"
+        "ghost-theme"
     ],
     "repository": {
         "type": "git",
