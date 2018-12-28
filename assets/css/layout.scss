@@ -120,10 +120,18 @@ body {
 }
 
 .welcome {
-  padding: 5rem;
+  padding: 2rem;
+
+  @media (min-width: 768px) {
+    padding: 5rem;
+  }
 
   p {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+
+    @media (min-width: 768px) {
+      font-size: 1.8rem;
+    }
 
     a {
       color: #000;
