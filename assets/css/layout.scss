@@ -100,11 +100,10 @@ body {
 .section-header{
   width: 100vw;
   left: calc(-1 * (100vw - 100%) / 2);
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   margin-top: -2rem;
   position: relative;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 3rem;
 
   text-align: center;
   border-bottom: 1px solid #ece6da;
@@ -112,6 +111,23 @@ body {
   @media (min-width: 768px) {
     width: 75vw;
     left: calc(-1 * (75vw - 100%) / 2);
+  }
+
+  p {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+  }
+}
+
+.welcome {
+  padding: 5rem;
+
+  p {
+    font-size: 1.8rem;
+
+    a {
+      color: #000;
+    }
   }
 }
 

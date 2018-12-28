@@ -6,9 +6,9 @@
     {{#tag}}
       <h1>{{name}}</h1>
       {{#if description}}
-        {{description}}
+        <p>{{description}}</p>
       {{else}}
-        A collection of {{plural ../pagination.total empty='posts' singular='% post' plural='% posts'}}
+        <p>A collection of {{plural ../pagination.total empty='posts' singular='% post' plural='% posts'}}</p>
       {{/if}}
     {{/tag}}
   </div>
