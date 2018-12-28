@@ -63,6 +63,21 @@ body {
   padding-top: 20px;
   padding-bottom: 20px; }
 
+.section-header {
+  width: 100vw;
+  left: calc(-1 * (100vw - 100%) / 2);
+  margin-bottom: 2rem;
+  margin-top: -2rem;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #ece6da; }
+  @media (min-width: 768px) {
+    .section-header {
+      width: 75vw;
+      left: calc(-1 * (75vw - 100%) / 2); } }
+
 .content {
   padding-top: 2rem; }
   .content .post-metadata {
@@ -133,6 +148,12 @@ body {
       .content article h1 a {
         color: #000; }
         .content article h1 a:hover {
+          text-decoration: none; }
+    .content article h2 {
+      font-size: 2rem; }
+      .content article h2 a {
+        color: #000; }
+        .content article h2 a:hover {
           text-decoration: none; }
 
 p {

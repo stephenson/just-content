@@ -21,8 +21,11 @@
 </head>
 <body class="{{body_class}}">
   <div class="container-fluid">
+
     <div class="row">
       <div class="col-md-7 offset-md-1 content">
+        {{{block "section-header"}}}
+
         {{!-- All the main content gets inserted here, index.hbs, post.hbs, etc --}}
         {{{body}}}
       </div>

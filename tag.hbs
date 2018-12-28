@@ -1,16 +1,18 @@
 {{!< default}}
 {{!-- The tag above means - insert everything in this file into the {body} of the default.hbs template --}}
 
-{{#tag}}
-  <h1>{{name}}</h1>
-  {{#if description}}
-    {{description}}
-  {{else}}
-    A collection of {{plural ../pagination.total empty='posts' singular='% post' plural='% posts'}}
-  {{/if}}
-
-  <hr>
-{{/tag}}
+{{#contentFor "section-header"}}
+  <div class="section-header">
+    {{#tag}}
+      <h1>{{name}}</h1>
+      {{#if description}}
+        {{description}}
+      {{else}}
+        A collection of {{plural ../pagination.total empty='posts' singular='% post' plural='% posts'}}
+      {{/if}}
+    {{/tag}}
+  </div>
+{{/contentFor}}
 
 {{!-- The main content area --}}
 {{#foreach posts}}

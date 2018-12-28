@@ -97,6 +97,23 @@ body {
   padding-bottom: 20px;
 }
 
+.section-header{
+  width: 100vw;
+  left: calc(-1 * (100vw - 100%) / 2);
+  margin-bottom: 2rem;
+  margin-top: -2rem;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  text-align: center;
+  border-bottom: 1px solid #ece6da;
+
+  @media (min-width: 768px) {
+    width: 75vw;
+    left: calc(-1 * (75vw - 100%) / 2);
+  }
+}
 
 .content {
   padding-top: 2rem;
@@ -196,6 +213,17 @@ body {
 
     h1 {
       font-size: 2.8rem;
+      a {
+        color: #000;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    h2 {
+      font-size: 2rem;
       a {
         color: #000;
 
