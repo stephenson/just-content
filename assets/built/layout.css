@@ -49,6 +49,19 @@ body {
       color: #b8a275;
       text-decoration: underline; }
 
+.newsletter .content {
+  text-align: center; }
+  .newsletter .content h1 {
+    font-size: 3em; }
+
+.newsletter-blogpost {
+  border: 1px solid #ece6da;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
 .content {
   padding-top: 2rem; }
   .content hr {
@@ -133,11 +146,6 @@ p {
       width: 100%;
       display: block; }
 
-.newsletter .content {
-  text-align: center; }
-  .newsletter .content h1 {
-    font-size: 3em; }
-
 .card {
   border: 1px solid #ece6da;
   border-radius: 5px;
@@ -145,7 +153,8 @@ p {
   margin-bottom: 2rem; }
 
 .newsletter-blogpost {
-  margin-bottom: 30px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   text-align: center; }
 
 /* 7.6. Koenig Styles

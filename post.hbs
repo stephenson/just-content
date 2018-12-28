@@ -9,4 +9,7 @@ into the {body} of the default.hbs template --}}
 
   {{content}}
 
+  {{#if @labs.subscribers}}
+    {{subscribe_form placeholder="youremail@example.com"}}
+  {{/if}}
 {{/post}}
