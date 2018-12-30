@@ -280,10 +280,14 @@ p {
     text-align: center;
 
     a, p {
-      padding: 2rem;
+      padding: 0.5rem;
       margin: 0;
       width: 100%;
       display: block;
+
+      @media (min-width: 768px) {
+        padding: 2rem;
+      }
     }
   }
 }

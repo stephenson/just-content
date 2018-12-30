@@ -186,10 +186,13 @@ p {
   .pagination .newer, .pagination .older {
     text-align: center; }
     .pagination .newer a, .pagination .newer p, .pagination .older a, .pagination .older p {
-      padding: 2rem;
+      padding: 0.5rem;
       margin: 0;
       width: 100%;
       display: block; }
+      @media (min-width: 768px) {
+        .pagination .newer a, .pagination .newer p, .pagination .older a, .pagination .older p {
+          padding: 2rem; } }
 
 .card {
   border: 1px solid #ece6da;
