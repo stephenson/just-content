@@ -4,7 +4,7 @@ I just want an awesome and simple designed blog, so I created just-content! Insp
 
 [DEMO](https://www.stephenson.dk) (not powered by Ghost yet, still in the process of moving my blog).
 
-[Download](https://github.com/stephenson/just-content/releases), please provide feedback as [issues here on Github](https://github.com/stephenson/just-content/issues).
+[Download](https://github.com/stephenson/just-content/blob/master/dist/just-content.zip), please provide feedback as [issues here on Github](https://github.com/stephenson/just-content/issues).
 
 Come and help make it awesome!
 
