@@ -257,6 +257,7 @@ p {
 @media (max-width: 1040px) {
   .post-full-content .kg-width-full .kg-image {
     width: 100%; } }
+
 .kg-gallery-container {
   display: flex;
   flex-direction: column;
@@ -284,5 +285,3 @@ p {
 .kg-image-card.kg-width-wide + .kg-gallery-card,
 .kg-image-card.kg-width-wide + .kg-image-card.kg-width-wide {
   margin: -2.25em 0 3em; }
-
-/*# sourceMappingURL=layout.css.map */

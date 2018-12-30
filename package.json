@@ -11,6 +11,12 @@
         "desktop": "assets/screenshot-desktop.jpg",
         "mobile": "assets/screenshot-mobile.jpg"
     },
+    "scripts": {
+        "dev": "gulp",
+        "zip": "gulp zip",
+        "test": "gscan .",
+        "sass": "gulp sass:watch"
+    },
     "author": {
         "name": "Niklas Stephenson",
         "email": "niklas@stephenson.dk",
@@ -34,6 +40,17 @@
     "bugs": "https://github.com/stephenson/just-content/issues",
     "contributors": "https://github.com/stephenson/just-content/graphs/contributors",
     "devDependencies": {
+      "cssnano": "3.7.1",
+      "gscan": "^2.0.0",
+      "gulp": "^3.9.1",
+      "gulp-filter": "5.1.0",
+      "gulp-livereload": "3.8.1",
+      "gulp-sourcemaps": "1.6.0",
+      "gulp-uglify": "3.0.1",
+      "gulp-util": "3.0.7",
+      "gulp-watch": "4.3.8",
+      "gulp-zip": "4.0.0",
+      "gulp-sass": "4.0.2"
     },
     "config": {
         "posts_per_page": 5
