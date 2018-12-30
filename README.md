@@ -19,6 +19,19 @@ I am not a frontend developer, nor a designer. I am just a script kiddy that lik
 You need to set up Ghost on your local machine, read the official documentation [here](https://docs.ghost.org/install/local/).
 
 I use [Sass](http://sass-lang.com) to generate CSS files.
-First, you need to install bundle on your machine if you are on a mac run `bundle install`. This will install Sass.
 
-Go to the theme directory and run `sass --watch assets/css:assets/built`, this will run Sass in the background and update the compiled .css file in the built dir every time you make changes to the .scss files.
+
+Just-content styles are compiled using Gulp/SASS. You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp](https://gulpjs.com) installed globally. After that, from the theme's root directory:
+
+```bash
+$ yarn install
+$ yarn sass
+```
+
+Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.
+
+The `zip` Gulp task packages the theme files into `dist/<theme-name>.zip`, which you can then upload to your site.
+
+```bash
+$ yarn zip
+```
